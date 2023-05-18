@@ -1,0 +1,25 @@
+###
+GET http://127.0.0.1:8000/api/medicines
+
+###
+POST http://127.0.0.1:8000/api/medicines
+Content-Type: application/json
+
+{
+    "code": "BBB",
+    "name": "Paracetamol",
+    "information": "Aut sint consequatur aut nesciunt consequatur aut enim rerum quo accusamus dignissimos. Sed cupiditate voluptatem cum commodi quos in galisum aliquam."
+}
+
+###
+PUT http://127.0.0.1:8000/api/medicines/3
+Content-Type: application/json
+
+{
+    "code": "BBA",
+    "name": "Paracetamol",
+    "information": "Cum fugiat labore in galisum aspernatur ut deserunt odit non voluptatibus autem ut quasi nulla eum rerum autem sed consequatur dolorem. Et corrupti consequuntur sed nesciunt animi qui molestias iste ad nihil porro. Aut sint consequatur aut nesciunt consequatur aut enim rerum quo accusamus dignissimos. Sed cupiditate voluptatem cum commodi quos in galisum aliquam."
+}
+
+###
+DELETE http://127.0.0.1:8000/api/medicines/2
